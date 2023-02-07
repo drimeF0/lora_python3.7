@@ -2,7 +2,8 @@
 # Have BLIP auto caption
 # Have CLIPSeg auto mask concept
 
-from typing import List, Literal, Union, Optional, Tuple
+from typing import List, Union, Optional, Tuple
+from typing_extensions import Literal
 import os
 from PIL import Image, ImageFilter
 import torch
